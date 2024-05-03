@@ -2,7 +2,21 @@ import React from 'react'
 
 //INTERNAL IMPORT
 import Style from "../styles/index.module.css";
-import { HeroSection, Service, BigNFTSlider, Subscribe, Title, Category, Filter, NFTCard, Collection, FollowerTab, AudioLive} from '../components/componentsindex';
+import { 
+  HeroSection, 
+  Service, 
+  BigNFTSlider, 
+  Subscribe, 
+  Title, 
+  Category, 
+  Filter, 
+  NFTCard, 
+  Collection, 
+  FollowerTab, 
+  AudioLive,
+  Brand, 
+  Video
+} from '../components/componentsindex';
 
 const Home = () => {
   return (
@@ -34,6 +48,8 @@ const Home = () => {
       />
       <Category />
       <Subscribe />
+      <Brand />
+      <Video />
     </div>
   )
 }
