@@ -33,12 +33,12 @@ a {
 
 * {
   box-sizing: border-box;
-  -webkit-tap-highlight-color: non;
+  -webkit-tap-highlight-color: none;
 }
 
 ::selection{
   color: var(--shadow-dark-color);
-  backgorund: var(--icons-color);
+  background: var(--icons-color);
 }
 
 ::-webkit-scrollbar{

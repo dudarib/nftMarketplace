@@ -1,0 +1,24 @@
+.banner{
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner_img_mobile{
+    display: none;
+}
+
+.banner_img, .banner_img_mobile {
+  width: 100%;  /* Make the inner divs take up the full width */
+  height: 300px;  /* Set a fixed height or use a responsive height */
+  position: relative;  /* Position relative for child absolute positioning */
+}
+
+@media screen and (max-width: 35em) {
+    .banner_img_mobile{
+        display: block;
+    }
+
+    .banner_img {
+        display: none;
+    }
+}

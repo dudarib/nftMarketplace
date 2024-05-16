@@ -32,15 +32,32 @@
     margin-top: 3rem;
 }
 
+.Brand_box_right img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
 @media screen and (max-width: 35em) {
-    .Brand_box{
+    .Brand_box {
         grid-template-columns: 1fr;
+        gap: 2rem;  /* Adjust gap for smaller screens */
     }
 
-    .Brand_box_left h1{
+    .Brand_box_left h1 {
         font-size: 2.5rem;
     }
-    .Brand_box_left p{
+
+    .Brand_box_left p {
         margin-top: -.5rem;
+    }
+
+    .Brand_box_right {
+        text-align: center;  /* Center the image on smaller screens */
+    }
+
+    .Brand_box_right img {
+        width: 100%;
+        height: auto;
     }
 }
