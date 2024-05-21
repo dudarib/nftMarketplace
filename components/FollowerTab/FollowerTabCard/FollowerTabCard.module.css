@@ -100,7 +100,8 @@
     }
 
     .FollowerTabCard_box_img_img{
-        height: 200;
+        height: 250px;
+        width: 250px;
     }
 }
 
