@@ -1,0 +1,49 @@
+.NFTTabs_box{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    line-height: 0;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--shadow-dark-color);
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+
+}
+
+.NFTTabs_box_img{
+    border-radius: 50%;
+    flex-shrink: 0; /* Prevent the image from shrinking */
+    width: 50px; /* Set a fixed width for the image */
+    height: 50px; /* Set a fixed height for the image */
+}
+
+.NFTTabs_box_info{
+    display: grid;
+    align-self: flex-start;
+    line-height: 1;
+    margin-top: 6px;
+    max-width: calc(100% - 60px); /* Adjust max-width to fit with the image */
+
+}
+
+.NFTTabs_box_info span{
+    font-weight: 700;
+}
+
+.NFTTabs_box_info small{
+    margin-top: .2rem;
+}
+
+@media screen and (max-width: 320px) {
+    .NFTTabs_box {
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    .NFTTabs_box_img {
+        margin-bottom: 0.5rem; /* Add some space below the image */
+    }
+
+    .NFTTabs_box_info {
+        max-width: 100%; /* Allow full width for the info section */
+    }
+}
