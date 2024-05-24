@@ -4,21 +4,20 @@
 
 .NFTDetailsImg_box_NFT{
     display: grid;
-    gap: 1rem; /* Add some gap for better spacing */
-
+    gap: 1rem;
 }
 
 .NFTDetailsImg_box_NFT_img{
     grid-column: 1 / -1;
     grid-row: 1 / end;
-    max-width: 100%; /* Ensure the image does not exceed the container width */
+    max-width: 100%;
 
 }
 
 .NFTDetailsImg_box_NFT_img_img{
     border-radius: 1rem;
-    width: 100%; /* Make sure the image takes the full width of its container */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%;
+    height: auto;
 }
 
 .NFTDetailsImg_box_NFT_like{
@@ -73,29 +72,31 @@
 
 @media screen and (max-width: 35em) {
     .NFTDetailsImg_box_NFT_like {
-        padding-inline: 1rem; /* Reduce padding for smaller screens */
-    }
+        padding-inline: 1rem;
+        }
 
     .NFTDetailsImg_box_details,
     .NFTDetailsImg_box_description {
-        flex-direction: column; /* Stack items vertically */
-        align-items: flex-start; /* Align items to the start */
-        gap: .5rem; /* Add some gap between items */
-        padding-inline: .5rem; /* Adjust padding for smaller screens */
+        flex-direction: column;
+        align-items: flex-start;
+        gap: .5rem;
+        padding-inline: .5rem;
     }
 
     .NFTDetailsImg_box_NFT_like p {
-        font-size: .9rem; /* Adjust font size for smaller screens */
-        padding: .2rem .5rem; /* Adjust padding for smaller screens */
+        font-size: .9rem;
+        padding: .2rem .5rem;
     }
 
     .NFTDetailsImg_box_details_box,
     .NFTDetailsImg_box_description_box {
-        font-size: .9rem; /* Adjust font size for smaller screens */
-        padding: .1rem .5rem; /* Adjust padding for smaller screens */
+        font-size: .9rem;
+        padding: .1rem .5rem;
+        width: 90%;
+
     }
 
     .NFTDetailsImg_box_details_box p {
-        font-size: .9rem; /* Adjust font size for smaller screens */
+        font-size: .8rem;
     }
 }
