@@ -34,7 +34,7 @@ const SideBar = ({ setOpenSideMenu }) => {
     },
     {
       name: "Author Profile",
-      link: "author-profile",
+      link: "author",
     },
     {
       name: "NFT Details",
@@ -42,7 +42,7 @@ const SideBar = ({ setOpenSideMenu }) => {
     },
     {
       name: "Account Setting",
-      link: "account-setting",
+      link: "account",
     },
     {
       name: "Connect Wallet",
