@@ -42,8 +42,18 @@ import nft_image_3 from "./nft-image-3.png";
 import musiceWave from "./musicwave.png";
 import update from "./update.png";
 import earn from "./earn.png"
+import upload from "./upload.png";
+import provider1 from "./provider-1.png";
+import provider2 from "./provider-2.png";
+import provider3 from "./provider-3.png";
+import provider4 from "./provider-4.png";
 
 export default {
+  provider4,
+  provider3,
+  provider2,
+  provider1,
+  upload,
   earn,
   collection,
   update,
